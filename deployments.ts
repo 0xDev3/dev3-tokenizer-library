@@ -89,7 +89,7 @@ export const Matic: TokenizerConfig = {
         treasury: '0xC42676564481FB66E10b93545a9f41C81cc7813D'
     },
     revenueFeeManager: {
-        address: '0x7c6912280D9c28e42c208bE79ccb2c8fC71Bd7EA',
+        address: '0xBbA256C3fC518f65974c3e84bB554757677d4c40',
         owner: '0x083D85EA574E276E86841202B159D60f3473E671',
         treasury: '0xC42676564481FB66E10b93545a9f41C81cc7813D'
     },
@@ -100,7 +100,7 @@ export const Matic: TokenizerConfig = {
         reward: '200000000000000000'
     },
     investService: '0xba92ac2560e2f99d4dd10c5572dcaae9eeb9573c',
-    payoutManager: '0x785e44E6bE12068216f513a460c490DAc9631aC5',
+    payoutManager: '0x00BeBf8FA0896a2743C3F1A0f43eAC2de0c149E0',
     merkleTreePathValidator: '0x743BFd8395b13157A3cE6b1D8c1aC172a20B4d4d',
     payoutService: '0x9982bb7bD0160B869D8E6Ca7559e53B01D2165eb',
     queryService: '0x05633b916e9ca43366f51fe7506126ceae0dc5d9',

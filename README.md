@@ -1,6 +1,6 @@
-# Tokenizer Contracts Prototype
+# Tokenizer Contracts Library
 
-AMPnet Crowdfunding Platform v1.0 written in Solidity language.
+Contracts open-sourced by the [0xDev3](www.dev3.sh) team!
 
 ## Contract types
 

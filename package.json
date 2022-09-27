@@ -1,7 +1,7 @@
 {
-  "name": "tokenizer-prototype",
-  "version": "1.0.33",
-  "description": "",
+  "name": "dev3-tokenizer-library",
+  "version": "1.0.0",
+  "description": "Collection of Solidity smart contracts used for tokenization and crowdfunding purposes.",
   "main": "index.js",
   "files": [
     "contracts",
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AMPnet/tokenizer-prototype.git"
+    "url": "git+https://github.com/0xDev3/dev3-sdk.git"
   },
-  "author": "",
+  "author": "0xDev3",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AMPnet/tokenizer-prototype/issues"
+    "url": "https://github.com/0xDev3/dev3-tokenizer-library/issues"
   },
-  "homepage": "https://github.com/AMPnet/tokenizer-prototype#readme",
+  "homepage": "https://github.com/0xDev3/dev3-tokenizer-library#readme",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
     "@nomiclabs/hardhat-solhint": "^2.0.0",

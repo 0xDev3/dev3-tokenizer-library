@@ -27,7 +27,7 @@ describe("Query service tests", function () {
         const assetBalancesResponse1 = await queryIssuerForAssetBalances(aliceAddress);
         expect(assetBalancesResponse1.length).to.be.equal(0);
 
-        // state 2: there's 1 tranferable asset in existence (creted by ampnet) but investor balance is still 0
+        // state 2: there's 1 tranferable asset in existence but investor balance is still 0
         const assetTransferableName = "Test Asset";
         const assetTransferableSymbol = "TA";
         const assetTransferableInfoHash = "info-hash";
