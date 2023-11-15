@@ -49,6 +49,7 @@ export const Mumbai: TokenizerConfig = {
     merkleTreePathValidator: '0x9982bb7bD0160B869D8E6Ca7559e53B01D2165eb',
     payoutService: '0xdf7361E2A8F9d9b3258960A19535cf42f211D946',
     queryService: '0x743BFd8395b13157A3cE6b1D8c1aC172a20B4d4d',
+    issuerQueryService: '0x335aEf3321df6D8cc49f7310409323eb6B8462Ef',
     deployerService: '0x7EBb7d279Ff45Ba30698CC090a53c0EC05F89f81',
     emptyFactory: '0x3BE13506aF685EB2d2F6321700053f6395146522'
 }
@@ -104,6 +105,7 @@ export const Matic: TokenizerConfig = {
     merkleTreePathValidator: '0x743BFd8395b13157A3cE6b1D8c1aC172a20B4d4d',
     payoutService: '0x9982bb7bD0160B869D8E6Ca7559e53B01D2165eb',
     queryService: '0x05633b916e9ca43366f51fe7506126ceae0dc5d9',
+    issuerQueryService: '0xD828A2Cf77023298920A9395d53a6C60E77B86f7',
     deployerService: '0xf47CF4f0E0cb0097d7C0955068bF98733586A87e',
     emptyFactory: '0xca07985612E7BD509C4a2BDc04e27D851cf50a92'
 }
@@ -159,6 +161,7 @@ export const Private: TokenizerConfig = {
     merkleTreePathValidator: '0x47FFfb93FE4875B6FBf1C82F0e068bB4E5917b31',
     payoutService: '0xD4eb15e97FeEd5530c99062eA1953Db5b3634A97',
     queryService: '0x7F069323f85dF642Ef2FE5691C1909220036e911',
+    issuerQueryService: '',
     deployerService: '0x95f2AD099BCb457757ae29c134A30934821b0D9D',
     emptyFactory: '0xd48Fcfe879649A83e1AD333b2AB2Bd480754F972'
 }
@@ -214,6 +217,7 @@ interface TokenizerConfig {
     payoutService: string,
     merkleTreePathValidator: string,
     queryService: string,
+    issuerQueryService: string,
     deployerService: string,
     emptyFactory: string
 }
